@@ -1,0 +1,64 @@
+body {
+    font-family: Garamond;
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(130, 255, 182),rgb(130, 255, 238));
+    height: 100%;
+}
+
+h1 {
+    color: rgb(0, 89, 255);
+    font-family: Goudy Old Style; 
+}
+
+table {
+    border:thick solid black;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+
+td {
+    border:thin solid rgb(72, 229, 240);
+    background-color: rgba(255, 255, 255, 0.9);
+    width: auto;
+    height: 15%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.images {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    border:thin solid black;
+    padding:5px;
+    background-color: white;
+    height: 50px;
+    font-size: 25px; 
+}
+
+div {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+button {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 25px;
+}
+
+.parent {
+    display: flex;
+}

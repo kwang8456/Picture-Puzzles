@@ -1,0 +1,54 @@
+<!-- Kevin Wang, Section 83 Even 5/6, 10/23/2021 -->
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <script src = "script.js" async> </script>
+    <title> penguin Puzzle </title>
+</head>
+<body onload = "initialize ('penguin');">
+    <table>
+        <h1> Picture Puzzle </h1>
+        <!-- reset the board when the button is clicked on -->
+        <button onclick = "reset ();" > Reset </button>
+        <!-- start the game when the button is clicked on -->
+        <button onclick = "start ();" > Start </button>
+    <hr/> <br/>
+        <div> Moves: <span id = "move" > </span> </div>
+    <br/>
+        
+        <tr> 
+            <th colspan = "4"> <span id = "comments"> </span></th>
+        </tr>
+        <tr>
+            <td id = "1" onclick = "change (1);" > </td>
+            <td id = "2" onclick = "change (2);" > </td>
+            <td id = "3" onclick = "change (3);" > </td>
+            <td id = "4" onclick = "change (4);" > </td>
+        </tr>
+        <tr>
+            <td id = "5" onclick = "change (5);" > </td>
+            <td id = "6" onclick = "change (6);" > </td>
+            <td id = "7" onclick = "change (7);" > </td>
+            <td id = "8" onclick = "change (8);" > </td>
+        </tr>
+        <tr>
+            <td id = "9" onclick = "change (9);" > </td>
+            <td id = "10" onclick = "change (10);" > </td>
+            <td id = "11" onclick = "change (11);" > </td>
+            <td id = "12" onclick = "change (12);" > </td>
+        </tr>
+        <tr>
+            <td id = "13" onclick = "change (13);" > </td>
+            <td id = "14" onclick = "change (14);" > </td>
+            <td id = "15" onclick = "change (15);" > </td>
+            <td id = "16" onclick = "change (16);" > </td>
+        </tr>
+    </table>
+</body>
+</html>
